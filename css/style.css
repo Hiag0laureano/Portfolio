@@ -1,0 +1,516 @@
+* {
+    margin: 0px; /*Margem externa das caixas*/
+    padding: 0px; /*Mergem interna das caixas*/
+    box-sizing: border-box; /*Ajuste das caixas sem a soma com a largura*/
+}
+section{
+    background: #111;
+    min-height: 0vh;   
+   
+}
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+video{
+    height: auto;
+    width: 100%;
+}
+
+.hero{
+  height: 108vh;
+  width:100%;
+  border: 0px 0px 10px black;
+  backdrop-filter: blur(10px);
+}
+nav{
+ padding-top: 10px;   
+ position: relative;
+ display: flex;
+ padding-left: 200px;
+ background-color: #111;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+    font-family: monospace;
+}
+span{
+    color: blueviolet;
+}
+nav ul{
+    padding-left:500px;
+}
+
+nav ul li{
+    padding-left: 100px;
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    font-family: Optima, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.site{
+    margin-left:20%;
+    margin-top:2%;
+    height:7%;
+    width:30%;
+    border-style:solid;
+    border-color:blueviolet;
+    border-radius:10px;
+    font-family: Optima, sans-serif;
+}
+.site:hover{
+    border-style: solid;
+    border-color: white;
+    transition: .3s;
+}
+.svSite{
+    color:blueviolet;font-size:20pt;margin-left:38%;margin-top:2%;
+}
+.svSite:hover{
+    color:white;
+    transition: .3s;
+}
+.app{
+    margin-left:20%;
+    margin-top:2%;
+    height:7%;
+    width:30%;
+    border-style:solid;
+    border-color:blueviolet;
+    border-radius:10px;
+    font-family: Optima, sans-serif;
+}
+.app:hover{
+    border-style: solid;
+    border-color: white;
+    transition: .3s;
+}
+nav ul li a:hover{
+    color:blueviolet;
+    transition: .3s;
+}
+button{
+    border:none;
+    background: blueviolet;
+    text-align: center;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    height: 50px;
+    margin-bottom:10px;
+}
+button:hover{
+    transform: scale(1.3);
+}
+header{
+    margin-top: 300px;
+    color: white;
+    text-align: center;
+    font-family: Optima, sans-serif;
+}
+.texto{ 
+        position: relative;
+    
+
+}
+h1{
+    font-size: 70px;
+}
+.ftHome img{
+    width: auto;
+    height: 600px;
+}
+.fundoHome{
+    height: 100%;
+    width: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/capa3.jpg);
+    background-size: cover;
+    background-position: center;
+   
+  }
+main{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.sobreMim{  
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+}
+.sobre{
+    color:#9c9fe9;
+    font-size: 25pt;
+    margin-right: 1000px;
+    font-family: cursive;
+}
+.btnSobre button{
+    border:none;
+    background: #9c9fe9;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+.textoSobre p span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 125px;
+    padding-left: 30%;
+    padding-right: 10%;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.TituloProjetos{
+    color: white;
+    padding-top: 200px;
+    padding-left: 40%;
+    padding-right: 10%;
+    font-family: Snell Roundhand, cursive;
+}
+.TodosProjetos{
+    flex-direction: wrap;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+/* <!-- Inicio do Primeiro projeto --> */
+.Projeto1{
+  display: flex;
+  flex-direction: row;
+}
+.imgProjetos{
+    display: block;
+    /* position: absolute; */
+    padding-top: 200px;
+    padding-left: 15%;
+    padding-right: 0%;
+}
+.imgProjetos img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+}
+.sobreProjeto{     
+    display: block;
+    /* position: absolute; */
+    padding-top: 350px;
+    padding-left: -100px;
+    padding-right: 0%;
+    font-family: cursive;
+    
+}
+.sobreProjeto p span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 13%;
+    padding-right: 30%;
+    color: white;
+    font-size: 25px;
+    font-family: cursive;
+}
+.sobreProjeto h3{
+    color: #9c9fe9;
+    padding-bottom: 15px;
+    padding-left: 90px;
+    font-family: Noto Sans, sans-serif;
+}
+.sobreProjeto h2{
+    color: white; 
+    padding-left: 90px;
+    padding-bottom: 30px;
+}
+/* Fim do Primeiro projeto */
+
+/* <!-- Inicio do Segundo projeto --> */
+.Projeto2{
+  display: flex;
+  flex-direction: row;
+}
+.imgProjetos2{
+    display: block;
+    /* position: absolute; */
+    padding-top: 200px;
+    padding-left: 5%;
+    padding-right: 25%;
+}
+.imgProjetos2 img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+}
+.sobreProjeto2{     
+    display: block;
+    /* position: absolute; */
+    padding-top: 350px;
+    padding-left: 220px;
+    padding-right: 0%;
+    
+}
+.sobreProjeto2 p span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-left: 30%;
+    padding-right: 10%;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+}
+.sobreProjeto2 h3{
+    color: #9c9fe9;
+    padding-bottom: 15px;
+    padding-left: 170px;
+    font-family: Noto Sans, sans-serif;
+}
+.sobreProjeto2 h2{
+    color: white; 
+    padding-left: 170px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+/* <!-- Fim do Segundo projeto --> */
+.footer{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), black;
+    background-size: cover;
+    background-position: center;
+    ;
+}
+.footer p{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30pt;
+    font-family: Bradley Hand, cursive;
+    color: white;
+}
+.btnfooter{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 0%;
+    
+}
+.redesSociais{
+    padding-top: 0px;
+    padding-left: 85%;
+    padding-right: 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+.GitHub{
+    margin-right: 10px;
+}
+.Instagram{
+    margin-right: 10px;
+}
+.GitHub img{
+    height: 25px;
+    width: auto;
+}
+
+.redesSociais .Instagram img{
+    height: 25px;
+    width: auto;   
+}
+.Facebook img{
+    height: 25px;
+    width: auto;
+}
+.whatsapp-link{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 11000;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+}
+/* Inicio do layout de projetos */
+.hero2{
+    width:100%;
+    border: 0px 0px 10px black;
+    backdrop-filter: blur(10px);
+  }
+  .todosprojetos{
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap; 
+    padding-bottom: 50px;
+}
+.projetos{
+    background-color: #111;
+}
+.Projeto{
+    flex-direction: row;
+}
+.imgprojetos{
+    display: block;
+    /* position: absolute; */
+    padding-top: 200px;
+    padding-left: 55%;
+    padding-right: 0%;
+}
+.imgprojetos img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+}
+.sobreprojeto{
+    color: #fff;     
+    display: block;
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-left: 300px;
+    padding-right: 0%;
+    font-family: cursive;
+}
+.sobreprojeto h3{
+    color: #9c9fe9;
+    padding-bottom: 15px;
+    font-family: Noto Sans, sans-serif;
+}
+.sobreprojeto h2{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-family: Noto Sans, sans-serif;
+}
+
+.projeto2{
+    flex-direction: row;  
+}
+.imgprojetos2 img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+}
+.imgprojetos2{
+    padding-top: 200px;
+    display: block;
+    /* position: absolute; */
+    /* padding-top: 200px; */
+    padding-left: 70%;
+    padding-right: 25%;
+}
+.sobreprojeto2{  
+    color: #fff;     
+    display: block;
+    /* position: absolute; */
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-right: 0%;
+    font-family: cursive;
+}
+.sobreprojeto2 h3{
+    color: #9c9fe9;
+    padding-bottom: 15px;
+    font-family: Noto Sans, sans-serif;
+}
+.sobreprojeto2 h2{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-family: Noto Sans, sans-serif;
+}
+.sobre2{     
+    display: block;
+    /* position: absolute; */
+    padding-top: 350px;
+    padding-left: 220px;
+    padding-right: 0%;
+    
+}
+.sobre2 h2{
+    color: white; 
+    padding-left: 170px;
+    padding-bottom: 30px;
+    font-family: cursive;
+}
+.sobre2 p span{
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    padding-right: 10%;
+    color: white;
+    font-size: 23px;
+    font-family: cursive;
+}
+.imgSobre2{
+    display: block;
+    /* position: absolute; */
+    padding-top: 200px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.imgSobre2 img{
+    height: 550px;
+    width: 550px;
+    border-radius: 10px;
+}
+.footerSite{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    height: 40vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), black;
+    background-size: cover;
+    background-position: center;
+    ;
+}
+.footerSite p{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 30pt;
+    font-family: Bradley Hand, cursive;
+    color: white;
+}
+.btnfooterSite{
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 0%;
+    
+}
