@@ -16,8 +16,9 @@
                 <video src="img/video2.mp4" autoplay muted loop class="active"></video>
             </div>
         </section> 
-        <nav style="background-color: black; align-items: center;">
-            <img style="height:1%; width:18%;" src="img/logo2.png">
+        <nav >
+            <img class="logo" src="img/logo2.png">
+           
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="projeto.html">Projetos</a></li>
@@ -25,7 +26,8 @@
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="#">Contate-Me</a></li>
             </ul>
-            <button type="button">Contate-Me</button>
+            <a id="fechar" href="#"  onclick="fechar()">&times;</a>
+            <button class="btncontato" type="button">Contate-Me</button>
         </nav>
         <header class="linha">
             <div class="texto">
@@ -36,6 +38,7 @@
     </div>
     <main>     
     <div class="fundoHome">
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
        
             <div class="SobreHome">
                 <div class="sobreMim">
@@ -130,5 +133,13 @@
     <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5511970644162" target="_blank">
         <i class="fa fa-whatsapp"></i>
     </a>   
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px";
+        }
+        function fechar (){
+            document.getElementsByTagName("nav")[0].style.left="-200px";
+        }
+    </script>
 </body>
 </html>
