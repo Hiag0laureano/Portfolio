@@ -54,7 +54,7 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-weight:bold;
-    font-family: Optima, sans-serif;
+    ;
 }
 a{
     text-decoration: none;
@@ -67,7 +67,7 @@ a{
     border-style:solid;
     border-color:blueviolet;
     border-radius:10px;
-    font-family: Optima, sans-serif;
+    ;
 }
 .site:hover{
     border-style: solid;
@@ -89,7 +89,7 @@ a{
     border-style:solid;
     border-color:blueviolet;
     border-radius:10px;
-    font-family: Optima, sans-serif;
+    ;
 }
 .app:hover{
     border-style: solid;
@@ -120,7 +120,7 @@ button:hover{
     margin-top: 300px;
     color: white;
     text-align: center;
-    font-family: Optima, sans-serif;
+    ;
 }
 .texto{ 
         position: relative;
@@ -235,7 +235,7 @@ main{
     color: #9c9fe9;
     padding-bottom: 15px;
     padding-left: 90px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 .sobreProjeto h2{
     color: white; 
@@ -283,7 +283,7 @@ main{
     color: #9c9fe9;
     padding-bottom: 15px;
     padding-left: 170px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 .sobreProjeto2 h2{
     color: white; 
@@ -407,13 +407,13 @@ main{
 .sobreprojeto h3{
     color: #9c9fe9;
     padding-bottom: 15px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 .sobreprojeto h2{
     color: #fff;
     font-size: 30px;
     padding-bottom: 15px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 
 .projeto2{
@@ -444,13 +444,13 @@ main{
 .sobreprojeto2 h3{
     color: #9c9fe9;
     padding-bottom: 15px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 .sobreprojeto2 h2{
     color: #fff;
     font-size: 30px;
     padding-bottom: 15px;
-    font-family: Noto Sans, sans-serif;
+    
 }
 .sobre2{     
     display: block;
@@ -521,24 +521,24 @@ main{
     color:white;
     margin-top:10%;
     padding: 10px;  
-    font-family:Optima, sans-serif
+   
 }
 .txtSobreServico{
     color:white;
     margin-left:20%;
     flex-wrap: wrap;
     width:30%;  
-    font-family: Optima, sans-serif
+    
 }
 .PassosSite{
     background-color: black; 
     height: 100%;
 }
 .txtSiteWeb{
-    margin-left:15%;font-size:40pt;color:white;margin-bottom: 10px;font-family: Optima, sans-serif;
+    margin-left:15%;font-size:40pt;color:white;margin-bottom: 10px;;
 }
 .txtSobreSite{
-    color:white;margin-left:15%;flex-wrap: wrap;width:40%;font-family: Optima, sans-serif
+    color:white;margin-left:15%;flex-wrap: wrap;width:40%;
 }
 .PassoPasso{
     margin-left:15%;margin-top:4%;
@@ -569,7 +569,7 @@ main{
     padding-left:10px;flex-wrap:wrap; width:80%;
 }
 .txtPasso{
-    color:white;font-family: Optima, sans-serif
+    color:white;
 }
 .txt{
     color:white;
@@ -628,7 +628,7 @@ main{
            color: white;
            text-decoration: none;
            font-weight:bold;
-           font-family: Optima, sans-serif;
+           ;
        }
        a{
            text-decoration: none;
@@ -650,7 +650,7 @@ main{
     .texto h1{
         padding-top: 50%;
         font-size: 50pt;
-        font-family: Optima, sans-serif;
+        ;
     }
     .trabalho{
         margin-top: 5%;
@@ -768,7 +768,7 @@ main{
         color: #9c9fe9;
         padding-bottom: 15px;
         padding-left: 90px;
-        font-family: Noto Sans, sans-serif;
+       
     }
     .sobreProjeto h2{
         color: white; 
@@ -815,7 +815,7 @@ main{
         color: #9c9fe9;
         padding-bottom: 2%;
         padding-left: 90px;
-        font-family: Noto Sans, sans-serif;
+      
     }
     .sobreProjeto2 h2{
         color: white; 
@@ -901,7 +901,7 @@ main{
         color: white;
         margin-left:20%;
         margin-top: 5%;
-        font-family: Noto Sans, sans-serif
+        
     }
     .todosprojetos{
         align-items: center;
@@ -939,13 +939,12 @@ main{
     .sobreprojeto h3{
         color: #9c9fe9;
         padding-bottom: 15px;
-        font-family: Noto Sans, sans-serif;
+       
     }
     .sobreprojeto h2{
         color: #fff;
         font-size: 30px;
         padding-bottom: 15px;
-        font-family: Noto Sans, sans-serif;
     }
     
     .projeto2{
@@ -973,13 +972,13 @@ main{
     .sobreprojeto2 h3{
         color: #9c9fe9;
         padding-bottom: 15px;
-        font-family: Noto Sans, sans-serif;
+       
     }
     .sobreprojeto2 h2{
         color: #fff;
         font-size: 30px;
         padding-bottom: 15px;
-        font-family: Noto Sans, sans-serif;
+        
     }
     .sobre2{     
         display: block;
@@ -1032,14 +1031,14 @@ main{
         color:white;
         margin-top:10%;
         padding: 10px;  
-        font-family:Optima, sans-serif
+       
     }
     .txtSobreServico{
         color:white;
         margin-left:15%;
         flex-wrap: wrap;
         width:70%;  
-        font-family: Optima, sans-serif;
+        ;
         font-size: 12pt;
     }
     .site{
@@ -1050,7 +1049,7 @@ main{
         border-style:solid;
         border-color:blueviolet;
         border-radius:10px;
-        font-family: Optima, sans-serif;
+        ;
     }
     .site:hover{
         border-style: solid;
@@ -1072,7 +1071,7 @@ main{
         border-style:solid;
         border-color:blueviolet;
         border-radius:10px;
-        font-family: Optima, sans-serif;
+        ;
     }
     .app:hover{
         border-style: solid;
@@ -1126,10 +1125,10 @@ main{
         height:160%;
     }
     .txtSiteWeb{
-        margin-left:15%;font-size:50pt;color:white;margin-bottom:10px;font-family: Optima, sans-serif;
+        margin-left:15%;font-size:50pt;color:white;margin-bottom:10px;;
     }
     .txtSobreSite{
-        color:white;margin-left:15%;flex-wrap: wrap;width:70%;font-family: Optima, sans-serif;font-size: 18px;margin-top: 10%;
+        color:white;margin-left:15%;flex-wrap: wrap;width:70%;font-size: 18px;margin-top: 10%;
     }
     .PassoPasso{
         margin-left:15%;margin-top:10%;
@@ -1159,7 +1158,7 @@ main{
         padding-left:10px;flex-wrap:wrap; width:80%;
     }
     .txtPasso{
-        color:white;font-family: Optima, sans-serif;
+        color:white;;
     }
     .txt{
         color:white;
