@@ -159,7 +159,7 @@ main{
     color:#9c9fe9;
     font-size: 25pt;
     margin-right: 1000px;
-    font-family: cursive;
+    
 }
 .btnSobre button{
     border:none;
@@ -179,7 +179,7 @@ main{
     padding-right: 10%;
     color: white;
     font-size: 25px;
-    font-family: cursive;
+    
 }
 .TituloProjetos{
     color: white;
@@ -218,7 +218,7 @@ main{
     padding-top: 350px;
     padding-left: -100px;
     padding-right: 0%;
-    font-family: cursive;
+    
     
 }
 .sobreProjeto p span{
@@ -229,7 +229,7 @@ main{
     padding-right: 30%;
     color: white;
     font-size: 25px;
-    font-family: cursive;
+    
 }
 .sobreProjeto h3{
     color: #9c9fe9;
@@ -277,7 +277,7 @@ main{
     padding-right: 10%;
     color: white;
     font-size: 23px;
-    font-family: cursive;
+    
 }
 .sobreProjeto2 h3{
     color: #9c9fe9;
@@ -289,7 +289,7 @@ main{
     color: white; 
     padding-left: 170px;
     padding-bottom: 30px;
-    font-family: cursive;
+    
 }
 /* <!-- Fim do Segundo projeto --> */
 .footer{
@@ -402,7 +402,7 @@ main{
     padding-top: 10px;
     padding-left: 300px;
     padding-right: 0%;
-    font-family: cursive;
+    
 }
 .sobreprojeto h3{
     color: #9c9fe9;
@@ -439,7 +439,7 @@ main{
     padding-top: 10px;
     padding-left: 400px;
     padding-right: 0%;
-    font-family: cursive;
+    
 }
 .sobreprojeto2 h3{
     color: #9c9fe9;
@@ -464,7 +464,7 @@ main{
     color: white; 
     padding-left: 170px;
     padding-bottom: 30px;
-    font-family: cursive;
+    
 }
 .sobre2 p span{
     display: flex;
@@ -473,7 +473,7 @@ main{
     padding-right: 10%;
     color: white;
     font-size: 23px;
-    font-family: cursive;
+    
 }
 .imgSobre2{
     display: block;
@@ -693,7 +693,7 @@ main{
         color:#9c9fe9;
         font-size: 20pt;
         margin-right: 100px;
-        font-family: cursive;
+        
     }
     .btnSobre button{
         border:none;
@@ -714,7 +714,7 @@ main{
         padding-top: 100px;
         color: white;
         font-size: 18px;
-        font-family: cursive;
+        
         margin-right:10%;
     }
     .TituloProjetos{
@@ -751,7 +751,7 @@ main{
         padding-top: 5%;
         padding-left: -100px;
         padding-right: 0%;
-        font-family: cursive;
+        
         
     }
     .sobreProjeto p span{
@@ -762,7 +762,7 @@ main{
         padding-right: 30%;
         color: white;
         font-size: 25px;
-        font-family: cursive;
+        
     }
     .sobreProjeto h3{
         color: #9c9fe9;
@@ -799,7 +799,7 @@ main{
         padding-top: 50%;
         padding-left: 00px;
         padding-right: 0%;
-        font-family: cursive;
+        
     }
     .sobreProjeto2 p span{
         display: flex;
@@ -809,7 +809,7 @@ main{
         padding-right: 30%;
         color: white;
         font-size: 25px;
-        font-family: cursive;
+        
     }
     .sobreProjeto2 h3{
         color: #9c9fe9;
@@ -934,7 +934,7 @@ main{
         padding-top: 3%;
         padding-left:15%;
         padding-right: 0%;
-        font-family: cursive;
+        
     }
     .sobreprojeto h3{
         color: #9c9fe9;
@@ -968,7 +968,7 @@ main{
         padding-top: 10px;
         padding-left: 10px;
         padding-right: 0%;
-        font-family: cursive;
+        
     }
     .sobreprojeto2 h3{
         color: #9c9fe9;
@@ -993,7 +993,7 @@ main{
         color: white; 
         padding-left: 170px;
         padding-bottom: 30px;
-        font-family: cursive;
+        
     }
     .sobre2 p span{
         display: flex;
@@ -1002,7 +1002,7 @@ main{
         padding-right: 10%;
         color: white;
         font-size: 23px;
-        font-family: cursive;
+        
     }
     .imgSobre2{
         display: block;
@@ -1094,7 +1094,7 @@ main{
         color: white; 
         padding-left: 10;
         padding-bottom: 30px;
-        font-family: cursive;
+        
         font-size: 34pt;
     }
     .sobre2 p span{
@@ -1104,7 +1104,7 @@ main{
         padding-right: 10%;
         color: white;
         font-size: 23px;
-        font-family: cursive;
+        
     }
     .imgSobre2{
         display: block;
