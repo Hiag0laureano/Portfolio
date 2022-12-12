@@ -1123,7 +1123,7 @@ main{
     /* Inicio do Serviço de Site */
     .PassosSite{
         background-color: black; 
-        height:145%;
+        height:160%;
     }
     .txtSiteWeb{
         margin-left:15%;font-size:50pt;color:white;margin-bottom:10px;font-family: Optima, sans-serif;
