@@ -4,149 +4,159 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aplicativo</title>
+    <title>Site Web</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
 </head>
 <body>
     <div class="hero">
-        <nav style="background-color: black; align-items: center;">
-            <img style="height:1%; width:18%;" src="img/logo2.png">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="projeto.html">Projetos</a></li>
-                <li><a href="servicos.html">Serviço</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="#">Contate-Me</a></li>
-            </ul>
-            <button type="button">Contate-Me</button>
-        </nav>
-        <main style="background-color: black; height: 100%;">
-            <div style="margin-top:10%">
-            <video src="img/videoLogo.mp4" autoplay muted loop class="active" style="width:220px;margin-left:15%;transform: translate3d(0px, 0px, 0px);"></video>
-            <h1 style="margin-left:15%;font-size:40pt;color:white;margin-bottom: 10px;font-family: Optima, sans-serif;">Aplicativo</h1>
-            <h2 style="color:white;margin-left:15%;flex-wrap: wrap;width:40%;font-family: Optima, sans-serif">Trabalho com uma metodologia humanizada, organizada e segura para ambas as partes. 
-                Criamos projetos do zero, passando por cada etapa de análise, pesquisa, referências, rascunhos, conhecimento, embasamento técnico e muito mais.</h2>
-            </div>
-            <!-- Lista do passo a passo do projeto -->
-            <div style=" margin-left:15%;margin-top:4%; ">
+        <div class="hero">
 
-                <div style="display:flex; display: -webkit-box; width:30%;">
+            <nav >
+                <img class="logo" src="img/logo2.png">
+               
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projeto.html">Projetos</a></li>
+                    <li><a href="servicos.html">Serviço</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#">Contate-Me</a></li>
+                </ul>
+                <button class="btncontato" type="button">Contate-Me</button>
+            </nav>
+
+        <main class="PassosSite">
+            
+            <div style="margin-top:10%">
+                <video src="img/videoLogo.mp4" autoplay muted loop class="active" style="width:220px;margin-left:15%;transform: translate3d(0px, 0px, 0px);"></video>
+                <h1 class="txtSiteWeb">Site Web</h1>
+                <h2 class="txtSobreSite">Trabalho com uma metodologia humanizada, organizada e segura para ambas as partes. 
+                    Criamos projetos do zero, passando por cada etapa de análise, pesquisa, referências, rascunhos, conhecimento, embasamento técnico e muito mais.</h2>
+            </div>
+
+            <!-- Lista do passo a passo do projeto -->
+            <div class="PassoPasso">
+
+                <div class="linhaSite">
                 <!-- Briefing - Resumo -->
-                <div style="width:80%;">
-                <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">01</h3>
-                </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-file-earmark-text" viewBox="0 0 16 16" style="margin-left:25%;">
-                            <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-                            <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-                          </svg>
-                    </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Briefing</h2>
-                        <h4 style="color:white;">Coletamos as informações mais relevantes para a criação das artes e linhas de conteúdos.</h4>
-                    </div>
-                </div>
+                    <div class="tamanhoLinha">
+                        <div class="caixaNumber">
+                            <h3 class="number">01</h3>
+                        </div>
+
+                        <div class="caixaTexto">
+                            <div class="fundoIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="Icon" viewBox="0 0 16 16">
+                                    <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
+                                    <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+                                 </svg>
+                            </div>
+                                <div class="caixaTxt">
+                                    <h2 class="txtPasso">Briefing</h2>
+                                    <h4 class="txt">Coletamos as informações mais relevantes para a criação das artes e linhas de conteúdos.</h4>
+                                </div>
+                        </div>
                 </div>
                 <!-- Fim do Briefing - Resumo -->
 
                 <!-- Inicio Orçamento -->
-                <div style="width:80%;">
-                 <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">02</h3>
-                </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="52" fill="currentColor" class="bi bi-cash-coin" viewBox="0 0 16 16" style="margin-left:25%;margin-top:1%;" >
-                            <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
-                            <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
-                            <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
-                            <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
-                          </svg>
+                <div class="tamanhoLinha">
+
+                    <div class="caixaNumber">
+                     <h3  class="number">02</h3>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Orçamento</h2>
-                        <h4 style="color:white;">Apresentamos os nossos planos e, depois de analisar, você escolhe o que é mais compatível com seu negócio.</h4>
-                    </div>
+
+                        <div class="caixaTexto">
+                            <div  class="fundoIcon">
+                                <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="Icon" viewBox="0 0 16 16" >
+                                    <path fill-rule="evenodd" d="M11 15a4 4 0 1 0 0-8 4 4 0 0 0 0 8zm5-4a5 5 0 1 1-10 0 5 5 0 0 1 10 0z"/>
+                                    <path d="M9.438 11.944c.047.596.518 1.06 1.363 1.116v.44h.375v-.443c.875-.061 1.386-.529 1.386-1.207 0-.618-.39-.936-1.09-1.1l-.296-.07v-1.2c.376.043.614.248.671.532h.658c-.047-.575-.54-1.024-1.329-1.073V8.5h-.375v.45c-.747.073-1.255.522-1.255 1.158 0 .562.378.92 1.007 1.066l.248.061v1.272c-.384-.058-.639-.27-.696-.563h-.668zm1.36-1.354c-.369-.085-.569-.26-.569-.522 0-.294.216-.514.572-.578v1.1h-.003zm.432.746c.449.104.655.272.655.569 0 .339-.257.571-.709.614v-1.195l.054.012z"/>
+                                    <path d="M1 0a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4.083c.058-.344.145-.678.258-1H3a2 2 0 0 0-2-2V3a2 2 0 0 0 2-2h10a2 2 0 0 0 2 2v3.528c.38.34.717.728 1 1.154V1a1 1 0 0 0-1-1H1z"/>
+                                    <path d="M9.998 5.083 10 5a2 2 0 1 0-3.132 1.65 5.982 5.982 0 0 1 3.13-1.567z"/>
+                                </svg>
+                            </div>
+
+                            <div class="caixaTxt">
+                                <h2 class="txtPasso">Orçamento</h2>
+                                <h4 class="txt">Apresentamos os nossos planos e, depois de analisar, você escolhe o que é mais compatível com seu negócio.</h4>
+                            </div>
+                        </div>
                 </div>
-            </div>
             <!-- Fim do Orçamento -->
 
             <!-- Inico da Aprovação -->
-            <div style="width:80%;">
-                <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">03</h3>
+            <div  class="tamanhoLinha">
+                <div class="caixaNumber">
+                    <h3 class="number">03</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-hand-thumbs-up" viewBox="0 0 16 16" style="margin-left: 25%;">
+                <div class="caixaTexto">
+                    <div class="fundoIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg"fill="currentColor" class="Icon" viewBox="0 0 16 16">
                             <path d="M8.864.046C7.908-.193 7.02.53 6.956 1.466c-.072 1.051-.23 2.016-.428 2.59-.125.36-.479 1.013-1.04 1.639-.557.623-1.282 1.178-2.131 1.41C2.685 7.288 2 7.87 2 8.72v4.001c0 .845.682 1.464 1.448 1.545 1.07.114 1.564.415 2.068.723l.048.03c.272.165.578.348.97.484.397.136.861.217 1.466.217h3.5c.937 0 1.599-.477 1.934-1.064a1.86 1.86 0 0 0 .254-.912c0-.152-.023-.312-.077-.464.201-.263.38-.578.488-.901.11-.33.172-.762.004-1.149.069-.13.12-.269.159-.403.077-.27.113-.568.113-.857 0-.288-.036-.585-.113-.856a2.144 2.144 0 0 0-.138-.362 1.9 1.9 0 0 0 .234-1.734c-.206-.592-.682-1.1-1.2-1.272-.847-.282-1.803-.276-2.516-.211a9.84 9.84 0 0 0-.443.05 9.365 9.365 0 0 0-.062-4.509A1.38 1.38 0 0 0 9.125.111L8.864.046zM11.5 14.721H8c-.51 0-.863-.069-1.14-.164-.281-.097-.506-.228-.776-.393l-.04-.024c-.555-.339-1.198-.731-2.49-.868-.333-.036-.554-.29-.554-.55V8.72c0-.254.226-.543.62-.65 1.095-.3 1.977-.996 2.614-1.708.635-.71 1.064-1.475 1.238-1.978.243-.7.407-1.768.482-2.85.025-.362.36-.594.667-.518l.262.066c.16.04.258.143.288.255a8.34 8.34 0 0 1-.145 4.725.5.5 0 0 0 .595.644l.003-.001.014-.003.058-.014a8.908 8.908 0 0 1 1.036-.157c.663-.06 1.457-.054 2.11.164.175.058.45.3.57.65.107.308.087.67-.266 1.022l-.353.353.353.354c.043.043.105.141.154.315.048.167.075.37.075.581 0 .212-.027.414-.075.582-.05.174-.111.272-.154.315l-.353.353.353.354c.047.047.109.177.005.488a2.224 2.224 0 0 1-.505.805l-.353.353.353.354c.006.005.041.05.041.17a.866.866 0 0 1-.121.416c-.165.288-.503.56-1.066.56z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Aprovação</h2>
-                        <h5 style="color:white;font-family: Optima, sans-serif">Assim que o orçamento é aprovado, começamos os trabalhos, normalmente, depende do projeto para ter noção do tempo para criar.</h4>
+                    <div  class="caixaTxt">
+                        <h2 class="txtPasso">Aprovação</h2>
+                        <h5 class="txt">Assim que o orçamento é aprovado, começamos os trabalhos, normalmente, depende do projeto para ter noção do tempo para criar.</h4>
                     </div>
                 </div>
             </div>
             <!-- Fim da Aprovação -->
             </div>
 
-            <div style="display:flex; display: -webkit-box; width:30%; margin-top:4%;">
+            <div class="linhaSite">
                 <!-- Incio da Pesquisa -->
-                <div style="width:80%;">
-                <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">04</h3>
+                <div class="tamanhoLinha">
+                <div class="caixaNumber">
+                    <h3 class="number">04</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"  style="margin-left:25%;">
+                <div class="caixaTexto">
+                    <div class="fundoIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="Icon" viewBox="0 0 16 16">
                             <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Pesquisa</h2>
-                        <h4 style="color:white;">O benchmarking é importante, pois é com ele que iremos identificar seus concorrentes diretos e indiretos.</h4>
+                    <div  class="caixaTxt">
+                        <h2 class="txtPasso">Pesquisa</h2>
+                        <h4 class="txt">O benchmarking é importante, pois é com ele que iremos identificar seus concorrentes diretos e indiretos.</h4>
                     </div>
                 </div>
                 </div>
                 <!-- Fim da Pesquisa -->
 
                 <!-- Inicio Separação -->
-                <div style="width:80%;">
-                 <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">05</h3>
+                <div class="tamanhoLinha">
+                 <div class="caixaNumber">
+                    <h3 class="number">05</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-pencil" viewBox="0 0 16 16" style="margin-left: 25%;">
+                <div  class="caixaTexto">
+                    <div  class="fundoIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="Icon" viewBox="0 0 16 16">
                             <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Separação</h2>
-                        <h4 style="color:white;">Separamos, em um documento, o que será aproveitado e o que será descartado para o seu projeto.</h4>
+                    <div class="caixaTxt">
+                        <h2 class="txtPasso">Separação</h2>
+                        <h4 class="txt">Separamos, em um documento, o que será aproveitado e o que será descartado para o seu projeto.</h4>
                     </div>
                 </div>
             </div>
             <!-- Fim da Separação -->
 
             <!-- Inico da Criação -->
-            <div style="width:80%;">
-                <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">06</h3>
+            <div class="tamanhoLinha">
+                <div class="caixaNumber">
+                    <h3 class="number">06</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-tools" viewBox="0 0 16 16" style="margin-left: 25%;">
+                <div class="caixaTexto">
+                    <div class="fundoIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="Icon" viewBox="0 0 16 16">
                             <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0Zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708ZM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11Z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Criação</h2>
-                        <h5 style="color:white;font-family: Optima, sans-serif">Começamos a criar com base no que foi passado no briefing e no que encontramos na pesquisa de mercado.</h4>
+                    <div class="caixaTxt">
+                        <h2 class="txtPasso">Criação</h2>
+                        <h5 class="txt">Começamos a criar com base no que foi passado no briefing e no que encontramos na pesquisa de mercado.</h4>
                     </div>
                 </div>
             </div>
@@ -155,42 +165,42 @@
             </div>
 
 
-            <div style="display:flex; display: -webkit-box; width:30%; margin-top:4%;">
+            <div class="linhaSite">
                 <!-- Inicio da Apresentação-->
-                <div style="width:80%;">
-                <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">07</h3>
+                <div class="tamanhoLinha">
+                <div class="caixaNumber">
+                    <h3 class="number">07</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
+                <div class="caixaTexto">
+                    <div  class="fundoIcon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-newspaper" viewBox="0 0 16 16" style="margin-left: 25%;">
                             <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
                             <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Apresentação</h2>
-                        <h4 style="color:white;">Apresentamos o planejamento fechado e completo do site para aprovação.</h4>
+                    <div class="caixaTxt">
+                        <h2 class="txtPasso">Apresentação</h2>
+                        <h4 class="txt">Apresentamos o planejamento fechado e completo do site para aprovação.</h4>
                     </div>
                 </div>
                 </div>
                 <!-- Fim da Apresentação -->
 
                 <!-- Inicio Entrega -->
-                <div style="width:80%;">
-                 <div style="margin-top:3%;">
-                    <h3 style="opacity:0.2;color: white;">08</h3>
+                <div class="tamanhoLinha">
+                 <div class="caixaNumber">
+                    <h3 class="number">08</h3>
                 </div>
-                <div style="flex-direction:row;display:flex;">
-                    <div  style="background-color:dimgray;height:auto;width:15%; height: 1%;border-radius:10px;">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="50" fill="currentColor" class="bi bi-send-check" viewBox="0 0 16 16" style="margin-left: 25%;">
+                <div class="caixaTexto">
+                    <div  class="fundoIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="Icon" viewBox="0 0 16 16">
                             <path d="M15.964.686a.5.5 0 0 0-.65-.65L.767 5.855a.75.75 0 0 0-.124 1.329l4.995 3.178 1.531 2.406a.5.5 0 0 0 .844-.536L6.637 10.07l7.494-7.494-1.895 4.738a.5.5 0 1 0 .928.372l2.8-7Zm-2.54 1.183L5.93 9.363 1.591 6.602l11.833-4.733Z"/>
                             <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686Z"/>
                           </svg>
                     </div>
-                    <div style="padding-left:10px;flex-wrap:wrap; width:80%;">
-                        <h2 style="color:white;font-family: Optima, sans-serif">Entrega</h2>
-                        <h4 style="color:white;">Entregamos o seu projeto, após ser aprovado, de acordo com o que seu negócio precisa para decolar.</h4>
+                    <div class="caixaTxt">
+                        <h2 class="txtPasso">Entrega</h2>
+                        <h4 class="txt">Entregamos o seu projeto, após ser aprovado, de acordo com o que seu negócio precisa para decolar.</h4>
                     </div>
                 </div>
             </div>
