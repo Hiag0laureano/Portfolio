@@ -7,14 +7,17 @@
     <title>Site Web</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdn.es.gov.br/fonts/font-awesome/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<body>
+<body style="background-color: black;">
     <div class="hero">
-        <div class="hero">
-
-            <nav >
+        <nav class="navbar navbar-expand-lg " class="navbar bg-primary" data-bs-theme="dark">
+            <div class="container-fluid" style="background-color: black;">
                 <img class="logo" src="img/logo2.png">
-               
+              <button class="navbar-toggler" type="button" style="background-color: white;" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="projeto.html">Projetos</a></li>
@@ -22,16 +25,17 @@
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="#">Contate-Me</a></li>
                 </ul>
-                <button class="btncontato" type="button">Contate-Me</button>
-            </nav>
+              </div>
+            </div>
+          </nav>
 
         <main class="PassosSite">
             
             <div style="margin-top:10%">
                 <video src="img/videoLogo.mp4" autoplay muted loop class="active" style="width:220px;margin-left:15%;transform: translate3d(0px, 0px, 0px);"></video>
-                <h1 class="txtSiteWeb">Site Web</h1>
+                <h1 class="txtSiteWeb">Aplicativos</h1>
                 <h2 class="txtSobreSite">Trabalho com uma metodologia humanizada, organizada e segura para ambas as partes. 
-                    Criamos projetos do zero, passando por cada etapa de análise, pesquisa, referências, rascunhos, conhecimento, embasamento técnico e muito mais.</h2>
+                    Criando projetos do zero, passando por cada etapa de análise, pesquisa, referências, rascunhos, conhecimento, embasamento técnico e muito mais.</h2>
             </div>
 
             <!-- Lista do passo a passo do projeto -->
@@ -243,5 +247,8 @@
             </div>
         </footer>      
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </body>
 </html>

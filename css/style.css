@@ -41,7 +41,8 @@ span{
     color: blueviolet;
 }
 nav ul{
-    padding-left:500px;
+    padding-top: 30px;
+    font-size: 15pt;
 }
 
 nav ul li{
@@ -56,7 +57,10 @@ nav ul li a{
     font-weight:bold;
     font-family: Optima, sans-serif;
 }
-a{
+.site a{
+    text-decoration: none;
+}
+.app a{
     text-decoration: none;
 }
 .site{
@@ -68,6 +72,7 @@ a{
     border-color:blueviolet;
     border-radius:10px;
     font-family: Optima, sans-serif;
+    
 }
 .site:hover{
     border-style: solid;
@@ -76,6 +81,7 @@ a{
 }
 .svSite{
     color:blueviolet;font-size:20pt;margin-left:38%;margin-top:2%;
+    
 }
 .svSite:hover{
     color:white;
@@ -105,16 +111,17 @@ button{
     background: blueviolet;
     text-align: center;
     padding: 12px 30px;
-    border-radius: 30px;
+    border-radius:10px;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
     transition: .4s;
-    height: 50px;
+    height: 75px;
     margin-bottom:10px;
 }
 button:hover{
     transform: scale(1.3);
+    border-radius: 100px;
 }
 .linha{
     margin-top: 300px;
@@ -124,8 +131,9 @@ button:hover{
 }
 .texto{ 
         position: relative;
-    
-
+}
+.txtHome{
+    font-size:100pt;
 }
 h1{
     font-size: 70px;
@@ -317,6 +325,7 @@ main{
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 0%;
+    border-radius: 20%;
     
 }
 .redesSociais{
@@ -649,7 +658,7 @@ main{
     }
     .texto h1{
         padding-top: 50%;
-        font-size: 50pt;
+        font-size: 30pt;
         font-family: Optima, sans-serif;
     }
     .trabalho{
@@ -728,6 +737,7 @@ main{
         display:list-item; 
         width: 100%;
         height: auto;dding-bottom: 50px;
+        justify-content: center;
     }
     /* <!-- Inicio do Primeiro projeto --> */
     .Projeto1{
@@ -737,8 +747,9 @@ main{
         display: block;
         /* position: absolute; */
         padding-top: 200px;
-        padding-left: 15%;
+        padding-left:10%;
         padding-right: 0%;
+        justify-content: center;
     }
     .imgProjetos img{
         height: 300px;
@@ -785,7 +796,7 @@ main{
         display: block;
         /* position: absolute; */
         padding-top: 2%;
-        padding-left: 15%;
+        padding-left: 10%;
         padding-right: 0%;
     }
     .imgProjetos2 img{
@@ -838,9 +849,9 @@ main{
         display: flex;
         flex-direction: row;
         padding-top: 5%;
-        padding-left: 10%;
-        padding-right: 10%;
-        font-size: 10pt;
+        padding-left: 8%;
+        padding-right: 5%;
+        font-size: 9pt;
         font-family: Bradley Hand, cursive;
         color: white;
     }
